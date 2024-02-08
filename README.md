@@ -4,6 +4,10 @@
 
 This project implements the NICE flow model as described in the paper ["NICE: Non-linear Independent Components Estimation"](https://arxiv.org/abs/1410.8516). The model comprises four additive coupling layers, alternating between odd and even dimensions and fixing one set of dimensions at a time. The final layer includes a scaling layer that learns a scale parameter per dimension and scales by exp(s) with a small epsilon for stability. The latent space uses a logistic distribution.
 
+## Saved models:
+
+[https://drive.google.com/drive/folders/1MOdrQzEuGUx-DZzsGaVh4uCvVfM2gH88?usp=sharing](https://drive.google.com/drive/folders/1MOdrQzEuGUx-DZzsGaVh4uCvVfM2gH88?usp=sharing)
+
 ## Dependencies
 
 - Python (>=3.6)
